@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pi Memorization Helper</title>
+  <style>
+    #piButton {
+        font-weight: bold;
+        color: white;
+        background-color: rgb(62, 6, 83);
+        font-size: 24px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: gainsboro;
+    }
+    button {
+      font-weight: bold;
+      color: rgb(62, 6, 83);
+      background-color: rgb(241, 237, 237);
+      font-size: 30px;
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius:50%
+    }
+    #piDisplay {
+      font-size: 40px;
+
+      color: green;
+    }
+    #piDisplay.error {
+      color: red;
+    }
+  </style>
+</head>
+<body style="width: 350px; height: 300px;">
+  <h1>Pi Memorization Helper</h1>
+  <div >digit:<div id="digit">0</div></div>
+  <div id="piDisplay">3.1</div>
+  <div class="ee">
+    <button id="btn1">1</button>
+    <button id="btn2">2</button>
+    <button id="btn3">3</button>
+    <button id="btn4">4</button>
+    <button id="btn5">5</button>
+    <button id="btn6">6</button>
+    <button id="btn7">7</button>
+    <button id="btn8">8</button>
+    <button id="btn9">9</button>
+    <button id="btnReset">reset</button>
+    <button id="btnBackspace">⌫</button>
+    
+  </div>
+  <button id="piButton" style="border: none; ">pi 전체 보기</button>
+  <script src="index.js"></script> 
+</body>
+</html>
